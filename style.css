@@ -1,0 +1,25 @@
+html{
+	font-family: "Arial";
+	font-size: 1.1em;
+	/*margin: 5%; */
+	background-color: #fdf7ef;
+
+}
+
+.wrapper{
+	border: solid black;
+	margin: 5% auto;
+	text-align: center;
+	padding: 25px;
+	width: 50%;
+}
+
+li{
+	margin: 10px;
+	list-style-type: decimal;
+}
+
+li:nth-child(even){
+	background-color: #FFEFE3;
+	border-radius: 10px;
+}
